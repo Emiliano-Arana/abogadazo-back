@@ -13,7 +13,7 @@ var app = express();
 
 // Configuración CORS - Añade esto antes de las rutas
 app.use(cors({
-  origin: 'https://gentle-sfogliatella-08f198.netlify.app/', // Ajusta esto a la URL de tu frontend
+  origin: 'https://gentle-sfogliatella-08f198.netlify.app', // Ajusta esto a la URL de tu frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
